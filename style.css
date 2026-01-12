@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Task 1 */
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.card {
+    padding: 15px;
+    background: white;
+    text-align: center;
+}
+.shorthand { border: 3px solid blue; }
+.sides {
+    border-top: 3px solid red;
+    border-right: 3px dashed green;
+    border-bottom: 3px dotted blue;
+    border-left: 3px double black;
+}
+.dashed { border: 3px dashed purple; }
+.double { border: 4px double brown; }
+.radius { border: 3px solid teal; border-radius: 15px; }
+.outline { border: 3px solid black; outline: 3px solid red; outline-offset: 4px; }
+
+/* Task 2 */
+.box-model {
+    width: 320px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px auto;
+    background: lightyellow;
+    box-sizing: border-box;
+}
+.content-box {
+    background: lightblue;
+    padding: 10px;
+}
+
+/* Task 3 */
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.pad-box {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    background: lightblue;
+}
+.mar-box {
+    width: 200px;
+    margin: 20px;
+    border: 2px solid black;
+    background: lightgreen;
+}
+
+/* Task 4 */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.product {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+}
+.price {
+    color: green;
+    font-weight: bold;
+}
+button {
+    padding: 6px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
